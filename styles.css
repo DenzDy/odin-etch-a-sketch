@@ -1,0 +1,14 @@
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: whitesmoke;
+}
+header{
+    padding: 5rem 0 0 0;
+}
+#title{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 4rem;
+    color: #313131;
+    font-weight: 700;
+}
