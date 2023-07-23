@@ -1,9 +1,10 @@
 body{
     font-family: 'Didact Gothic', sans-serif;
     background-color: whitesmoke;
+    padding: 0 10vw;
 }
 header{
-    padding: 5rem 0 0 0;
+    padding: 5rem 0 2rem 0;
 }
 #title{
     width: fit-content;
@@ -11,4 +12,49 @@ header{
     font-size: 4rem;
     color: #313131;
     font-weight: 700;
+}
+
+main{
+    display: flex;
+    gap: 7.5rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings{
+    padding-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+#square-color{
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    text-decoration: none;
+    padding: 0;
+}
+.canvas{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 0.25px solid grey;
+}
+
+.button{
+    font-family: 'Didact Gothic', sans-serif;
+    border: 1px solid #313131;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 170px;
 }

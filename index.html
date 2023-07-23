@@ -10,14 +10,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <h1 id="title">Etch A Sketch</h1>
     </header>
     <main>
-        <div class="buttons">
+        <div class="settings">
+            <input type="color" name="square-color" id="square-color">
+            <button id="clear-canvas" class="button">Clear</button>
+            <button id="rainbow-color" class="button">Toggle Rainbow</button>
+            <div class="slider-div">
+                <p id="grid-size-text">16x16</p>
+                <input id="slider" type="range" min="1" max="100">
+            </div>
             
         </div>
         <div class="canvas">
